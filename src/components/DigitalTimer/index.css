@@ -1,0 +1,87 @@
+/* Write your CSS here */
+.bg {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media Screen and (max-width: 767px) {
+  .content-container {
+    flex-direction: column;
+  }
+}
+.time-cont {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.time-item {
+  background-color: white;
+  border-radius: 50px;
+  width: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.time-heading {
+  color: #00d9f5;
+}
+.updation-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.btn-img-style {
+  height: 40px;
+}
+.timer-limit-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.time-limit-btn {
+  background-color: transparent;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+}
+.time-limit {
+  color: #0f172a;
+  font-size: 25px;
+  background-image: linear-gradient(to right, #cffcf1, #00d9f5);
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
